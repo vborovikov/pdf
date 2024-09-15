@@ -244,11 +244,7 @@ namespace MigraDoc.DocumentObjectModel
             {
                 if (_resmngr == null)
                 {
-#if !NETFX_CORE
-                    _resmngr = new ResourceManager("MigraDoc.DocumentObjectModel.Resources.Messages", Assembly.GetExecutingAssembly());
-#else
-                    _resmngr = new ResourceManager("MigraDoc.DocumentObjectModel.Resources.Messages", typeof(DomSR).GetTypeInfo().Assembly);
-#endif
+                    _resmngr = new ResourceManager("MigraDoc.Resources.Messages", Assembly.GetExecutingAssembly());
                 }
                 return _resmngr;
             }

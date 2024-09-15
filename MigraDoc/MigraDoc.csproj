@@ -12,8 +12,7 @@
     <DefineConstants>TRACE;GDI;UseGdiObjects</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DocumentObjectModel\Resources\Messages.de.restext" />
-    <EmbeddedResource Include="DocumentObjectModel\Resources\Messages.restext" />
+    <EmbeddedResource Include="RtfRendering\Resources\PDF.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="8.0.8" />

@@ -109,7 +109,7 @@ namespace MigraDoc.RtfRendering.Resources
       get
       {
         if (_resourceManager == null)
-          _resourceManager = new ResourceManager("MigraDoc.RtfRendering.Resources.Messages", Assembly.GetExecutingAssembly());
+          _resourceManager = new ResourceManager("MigraDoc.Resources.Messages", Assembly.GetExecutingAssembly());
 
         return _resourceManager;
       }
