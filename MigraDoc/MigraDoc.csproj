@@ -12,6 +12,8 @@
     <DefineConstants>TRACE;GDI;UseGdiObjects</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Messages.de.restext" />
+    <EmbeddedResource Include="Resources\Messages.restext" />
     <EmbeddedResource Include="RtfRendering\Resources\PDF.png" />
   </ItemGroup>
   <ItemGroup>
