@@ -3,17 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfSharp", "PdfSharp\PdfSharp.csproj", "{FC99B7DF-6C16-4C96-AE8D-E279BEFDFBD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfSharp", "PdfSharp\PdfSharp.csproj", "{FC99B7DF-6C16-4C96-AE8D-E279BEFDFBD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigraDoc", "MigraDoc\MigraDoc.csproj", "{5058AE47-D71A-4880-90DD-870F9B6562BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigraDoc", "MigraDoc\MigraDoc.csproj", "{5058AE47-D71A-4880-90DD-870F9B6562BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTests", "PdfTests\PdfTests.csproj", "{98913D30-3DD0-4317-9D4E-8C8097F51665}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FC99B7DF-6C16-4C96-AE8D-E279BEFDFBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +23,15 @@ Global
 		{5058AE47-D71A-4880-90DD-870F9B6562BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5058AE47-D71A-4880-90DD-870F9B6562BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5058AE47-D71A-4880-90DD-870F9B6562BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98913D30-3DD0-4317-9D4E-8C8097F51665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98913D30-3DD0-4317-9D4E-8C8097F51665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98913D30-3DD0-4317-9D4E-8C8097F51665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98913D30-3DD0-4317-9D4E-8C8097F51665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F1256F5-E4DC-48F4-9CD0-CE3856369253}
 	EndGlobalSection
 EndGlobal
